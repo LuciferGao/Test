@@ -1,0 +1,33 @@
+1、查看git版本
+
+$ git --version
+
+2、设置用户姓名和邮箱
+
+$ git config --global user.name “Craftor”
+
+$ git config --global usrer.email “craftor0924@gmail.com”
+
+3、设置命令别名
+
+$ git config --system alias.st status
+
+$ git config --system alias.ci commit
+
+$ git config --system alias.co checkout
+
+$ git config --system alias.br branch
+
+--system也可以换成--global，只针对当前用户。
+
+4、开启颜色显示
+
+$ git config --system color.ui true
+
+5、项目初始化
+
+$ mkdir demo
+
+$ cd demo
+
+$ git init
